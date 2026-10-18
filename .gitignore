@@ -1,0 +1,39 @@
+# ============ Windows ============
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============ Office 临时文件 ============
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ============ 编辑器 / IDE ============
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# ============ Node ============
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+.env
+.env.local
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+
+# ============ 编译产物 ============
+build/
+*.exe
+*.dll
+*.log
